@@ -11,9 +11,9 @@ value = int(input('Напишите значение матрицы '))
 
 matrix = get_matrix(n, m, value)
 if n <= 0:
-    print(n)
+    print()
 elif m <=0:
-    print(m)
+    print()
 else:
     print()
     for i in matrix:
